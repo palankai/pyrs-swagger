@@ -8,6 +8,9 @@
 .. toctree::
    :maxdepth: 2
 
+   contribution
+   codestyle
+
 License
 -------
 
