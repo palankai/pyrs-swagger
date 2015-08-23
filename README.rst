@@ -2,9 +2,13 @@
 pyrs.swagger
 ============
 
+.. image:: https://readthedocs.org/projects/pyrs-swagger/badge/?version=latest
+    :target: https://readthedocs.org/projects/pyrs-swagger/?badge=latest
+    :alt: Documentation Status
+
 Project homepage: `<https://github.com/palankai/pyrs-swagger>`_
 
-Issue tracking: `<https://github.com/palankai/pyrs-swagger/issues>`_
+Documentation: `<http://pyrs-swagger.readthedocs.org/en/latest/>`_
 
 Issue tracking: `<https://github.com/palankai/pyrs-swagger/issues>`_
 
@@ -47,7 +51,7 @@ If you are using the other parts of the framework, the building would be easier
     from pyrs import swagger
     from pyrs import resource
 
-    @GET('/swagger.json', inject_app=True)
+    @GET(inject_app=True)
     def swagger(app):
         swagger = Swagger()
         swagger.discovery(app)
@@ -56,9 +60,9 @@ If you are using the other parts of the framework, the building would be easier
     # in your pyrs application
 
     class MyAPI(resource.App):
-        resources=(
+        rwesources=(
             #...
-            ('/', swagger),
+            ('/swagger.json', swagger),
             #...
         )
 
