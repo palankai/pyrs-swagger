@@ -9,12 +9,12 @@ pyrs.swagger
     :target: https://coveralls.io/github/palankai/pyrs-swagger?branch=master
 
 .. image:: https://readthedocs.org/projects/pyrs-swagger/badge/?version=latest
-    :target: https://readthedocs.org/projects/pyrs-swagger/?badge=latest
+    :target: http://pyrs-swagger.readthedocs.org/
     :alt: Documentation Status
 
 Project homepage: `<https://github.com/palankai/pyrs-swagger>`_
 
-Documentation: `<http://pyrs-swagger.readthedocs.org/en/latest/>`_
+Documentation: `<http://pyrs-swagger.readthedocs.org/>`_
 
 Issue tracking: `<https://github.com/palankai/pyrs-swagger/issues>`_
 
