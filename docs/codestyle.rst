@@ -1,6 +1,6 @@
-================
-Codeing standard
-================
+============
+Code styling
+============
 
 This document would describe how should look like any part of this framework.
 I tend to update this document frequently,  specify it as precise as possible.
@@ -36,8 +36,9 @@ separated by a line break.
 
 The first for python core packages like sys, os, json.
 
-The second for 3rd party packages. Be aware psycopg2, six, python-dateutil are
-3rd should be in this group even if these are almost core packages.
+The second for 3rd party packages. Be aware psycopg2, six and python-dateutil
+are 3rd pary packages, should be in this group even if these are *almost* 
+core packages.
 
 The third group for import from same project.
 
