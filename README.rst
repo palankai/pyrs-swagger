@@ -2,6 +2,12 @@
 pyrs.swagger
 ============
 
+.. image:: https://travis-ci.org/palankai/pyrs-swagger.svg?branch=master
+    :target: https://travis-ci.org/palankai/pyrs-swagger
+
+.. image:: https://coveralls.io/repos/palankai/pyrs-swagger/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/palankai/pyrs-swagger?branch=master
+
 .. image:: https://readthedocs.org/projects/pyrs-swagger/badge/?version=latest
     :target: https://readthedocs.org/projects/pyrs-swagger/?badge=latest
     :alt: Documentation Status
@@ -23,7 +29,7 @@ file too. Goal of this project provide tools for create this schema.
 
 I've created the `pyrs framework <https://github.com/palankai/pyrs>`_ and
 this work also part of it. The swagger document generation *can be*
-based on `pyrs.resource <https://github.com/palankai/pyrs>`_ but not 
+based on `pyrs.resource <https://github.com/palankai/pyrs-resource>`_ but not 
 necessarily.
 
 Nutshell
