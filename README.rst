@@ -4,6 +4,10 @@ pyrs.swagger
 
 Project homepage: `<https://github.com/palankai/pyrs-swagger>`_
 
+Issue tracking: `<https://github.com/palankai/pyrs-swagger/issues>`_
+
+Issue tracking: `<https://github.com/palankai/pyrs-swagger/issues>`_
+
 What is this package for
 ------------------------
 
