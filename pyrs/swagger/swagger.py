@@ -39,7 +39,9 @@ class Swagger(dict):
 
     def _get_operation(self, options):
         operation = {
-            'responses': self._get_responses(options)
+            'responses': self._get_responses(options),
+            'produces': ['application/json'],
+            'consumes': ['application/json']
         }
         if 'name' in options:
             operation['operationId'] = options['name']
